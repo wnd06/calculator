@@ -40,7 +40,7 @@ public class main {
         }
         // 1
         System.out.println("result is " + result + ".");
-        
+        // 2
     }
 
     public static int add(int numberA, int numberB){
