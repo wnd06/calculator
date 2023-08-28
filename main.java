@@ -10,7 +10,7 @@ public class main {
 
         int numberA,numberB;
         String operator;
-        int result = 0;
+        int result = 1;
 
         System.out.println("Please enter a expression: ");
         numberA = Integer.parseInt(br.readLine());
