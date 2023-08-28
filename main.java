@@ -39,8 +39,8 @@ public class main {
     public static int add(int numberA, int numberB){
         return numberA+numberB;
     }
-    public static int sub(int a, int b){
-        return numberA-numberA;
+    public static int sub(int numberA, int numberB){
+        return numberA-numberB;
     }
     public static int multi(int a, int b){
         return a*b;
