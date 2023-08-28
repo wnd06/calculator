@@ -8,34 +8,34 @@ public class main {
     public static void main(String[] args) throws NumberFormatException, IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int a,b;
+        int numberA,numberB;
         String operator;
-        int c = 0;
+        int result = 0;
 
         System.out.println("Please enter a expression");
-        a = Integer.parseInt(br.readLine());
+        numberA = Integer.parseInt(br.readLine());
         operator = br.readLine();
-        b = Integer.parseInt(br.readLine());
+        numberB = Integer.parseInt(br.readLine());
 
         switch(operator) {
             case "+":
-                c = add(a, b);
+                result = add(numberA, numberB);
                 break;
             case "-":
-                c = sub(a, b);
+                result = sub(numberA, numberB);
                 break;
             case "*":
-                c = multi(a, b);
+                result = multi(numberA, numberB);
                 break;
             case "/":
-                c = div(a, b);
+                result = div(numberA, numberB);
                 break;
             
         }
 
-        System.out.println("result is " + c + ".");
+        System.out.println("result is " + result + ".");
     }
-    
+
     public static int add(int a, int b){
         return a+b;
     }
