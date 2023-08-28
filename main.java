@@ -38,10 +38,11 @@ public class main {
                 break;
             
         }
-
+        // 1
         System.out.println("result is " + result + ".");
+        
     }
-
+    // 3
     public static int add(int numberA, int numberB){
         return numberA+numberB;
     }
