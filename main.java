@@ -12,7 +12,7 @@ public class main {
         String operator;
         int result = 0;
 
-        System.out.println("Please enter a expression");
+        System.out.println("Please enter a expression: ");
         numberA = Integer.parseInt(br.readLine());
         operator = br.readLine();
         numberB = Integer.parseInt(br.readLine());
