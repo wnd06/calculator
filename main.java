@@ -39,7 +39,7 @@ public class main {
             
         }
 
-        System.out.println("결과는 " + result + "입니다.");
+        System.out.println("result is " + result + ".");
     }
 
     public static int add(int numberA, int numberB){
