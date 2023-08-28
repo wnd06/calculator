@@ -42,7 +42,7 @@ public class main {
         System.out.println("result is " + result + ".");
         // 2
     }
-
+    // 3
     public static int add(int numberA, int numberB){
         return numberA+numberB;
     }
